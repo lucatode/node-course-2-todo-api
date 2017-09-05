@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 var Todo = mongoose.model('Todo',{
-    message: {
+    text: {
         type: String,
         required: true,
         minlenght: 1,
